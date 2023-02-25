@@ -4,12 +4,19 @@
 
 Console.WriteLine("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
-int numout = -num;
 
 
-while(numout <= num)
+
+//numout = -num;
+
+// while(numout <= num)
+// {
+//     Console.WriteLine(numout);
+//     numout ++;
+
+// }
+
+for (int i = num; i >= -num; i--);
 {
-    Console.WriteLine(numout);
-    numout ++;
-
+    Console.WriteLine(i);
 }
