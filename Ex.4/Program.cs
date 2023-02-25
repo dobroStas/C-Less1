@@ -7,16 +7,16 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 
 
-//numout = -num;
+// numout = -num;
 
 // while(numout <= num)
 // {
 //     Console.WriteLine(numout);
 //     numout ++;
 
-// }
+// }    
 
-for (int i = num; i >= -num; i--);
+for (int i = -num; i <= num; i++)
 {
     Console.WriteLine(i);
 }
