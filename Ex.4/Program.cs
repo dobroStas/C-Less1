@@ -4,8 +4,7 @@
 
 Console.WriteLine("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
-int zero = 0;
-int numout = (zero - num);
+int numout = -num;
 
 
 while(numout <= num)
