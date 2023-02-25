@@ -5,6 +5,13 @@
 
 Console.WriteLine("Введите число:");
 int num = Convert.ToInt32(Console.ReadLine());
-int num1 = (num % 10);
-
-Console.WriteLine(num1);
+int num1 = 0;
+if (num >= 100 && num < 1000)
+{
+    num1 = (num % 10);
+    Console.WriteLine(num1);
+}
+else
+{
+    Console.WriteLine("Error");
+}
