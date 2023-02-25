@@ -14,13 +14,12 @@ Console.WriteLine("Введите второе число:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 == num2 * num2)
-{
     Console.WriteLine("да");
-}
+
 
 else
-{
+
     Console.WriteLine("нет");
-}
+
 
 
