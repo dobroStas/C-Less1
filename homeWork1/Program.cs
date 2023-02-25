@@ -12,9 +12,9 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 > num2)
 {
-    Console.WriteLine(num1);
+    Console.WriteLine("max = " + num1);
 }
 else
 {
-    Console.WriteLine(num2);
+    Console.WriteLine("max = " + num2);
 }
